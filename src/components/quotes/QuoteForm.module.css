@@ -31,6 +31,7 @@
   border: 1px solid #c1d1d1;
   display: block;
   width: 100%;
+  max-width: 100%;
   font-size: 1.25rem;
 }
 

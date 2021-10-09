@@ -10,8 +10,11 @@ import LoadingSpinner from "../components/UI/LoadingSpinner";
 const QuoteDetail = () => {
   const match = useRouteMatch();
   const params = useParams();
+  console.log(params)
 
   const { quoteId } = params;
+
+  console.log(quoteId)
 
   const {
     sendRequest,
