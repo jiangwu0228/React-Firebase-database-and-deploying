@@ -7,6 +7,7 @@ import Layout from "./components/Layout/Layout";
 // import QuoteDetail from "./pages/QuoteDetail";
 // import NotFound from "./pages/NotFound";
 import LoadingSpinner from "./components/UI/LoadingSpinner";
+import SelectTableComponent from './components/Layout/select-table'
 
 const NewQuote = React.lazy(() => import("./pages/NewQuote"));
 const QuoteDetail = React.lazy(() => import("./pages/QuoteDetail"));
@@ -41,6 +42,11 @@ function App() {
           </Route>
         </Switch>
       </Suspense>
+      <div className="container">
+      <h1>React Table with Rows Selection Single/ Multiple : FeakyJolly.com</h1>
+
+      <SelectTableComponent />
+    </div>
     </Layout>
   );
 }
